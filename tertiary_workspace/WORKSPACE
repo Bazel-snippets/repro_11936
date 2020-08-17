@@ -1,0 +1,3 @@
+# The name is ignored when loaded externally.
+# To build and test locally, you will have to remove the illegal + sign.
+workspace(name = "+ignored")
