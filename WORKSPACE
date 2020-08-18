@@ -1,4 +1,4 @@
-workspace(name = 'toast')
+workspace(name = 'test.dots')
 
 local_repository(
     name = "secondary_workspace",
@@ -6,6 +6,6 @@ local_repository(
 )
 
 local_repository(
-    name = "tertiary_workspace",
+    name = "third-workspace",
     path = "./tertiary_workspace/",
 )
