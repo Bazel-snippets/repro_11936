@@ -17,6 +17,6 @@ gen_hello(
 )
 
 cc_binary(
-    name = "annother_hello",
+    name = "another_hello",
     srcs = [":generated_hello"],
 )
